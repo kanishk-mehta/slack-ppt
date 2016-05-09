@@ -1,0 +1,60 @@
+body {
+  background: #02223D;
+  background-color: #02223D; 
+}
+
+.reveal .progress span{
+	background: #84CF0A;
+}
+
+.greentxt{
+	color: #84CF0A !important;
+}
+
+.fullwidth{
+	width: 100%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+img{
+	border: none !important;
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+.collaborate{
+	margin-bottom: 96px !important;
+}
+
+.imgWrapper{
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #02223D;
+	background-color: #02223D; 
+	float: right;
+}
+
+#slide2::before{
+	background: url('../img/slack-logo.png') #02223D no-repeat;
+	content: "";
+	opacity: 0.3;
+	background-position: left top;
+	top: -300px;
+	left: -300px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
